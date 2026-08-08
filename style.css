@@ -17,6 +17,48 @@ nav {
   margin-bottom: 32px;
 }
 
+a {
+  color: #7866d8;
+}
+
+.eyebrow {
+  color: #7866d8;
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+.language-grid {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  margin: 28px 0;
+}
+
+.language-grid section {
+  border: 1px solid color-mix(in srgb, currentColor 15%, transparent);
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.language-grid h2 {
+  font-size: 1rem;
+  margin-top: 0;
+}
+
+.language-grid a {
+  display: block;
+  margin-top: 8px;
+}
+
+.support-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 24px 0;
+}
+
 h1, h2 {
   line-height: 1.25;
 }
