@@ -129,6 +129,29 @@ h3 {
   max-width: 620px;
 }
 
+.download-link {
+  background: var(--text);
+  border-radius: 14px;
+  color: var(--background);
+  display: inline-block;
+  font-weight: 650;
+  margin-top: 20px;
+  padding: 16px 22px;
+  text-decoration: none;
+}
+
+.download-link:focus-visible {
+  outline: 3px solid var(--violet);
+  outline-offset: 5px;
+}
+
+.download-note {
+  color: var(--muted);
+  font-size: 0.9rem;
+  line-height: 1.6;
+  margin-top: 16px;
+}
+
 .app-icon {
   border-radius: 24%;
   box-shadow: 0 40px 100px rgba(119, 91, 183, 0.24);
